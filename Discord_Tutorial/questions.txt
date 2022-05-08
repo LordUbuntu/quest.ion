@@ -1,0 +1,10 @@
+Which Bear is Best?
+A: Black Bear
+Brown Bear
+Grizzly Bear
+Polar Bear
+Whats the derivative of x^2?
+Idk
+x^2
+x^3
+A: (1/2) * x

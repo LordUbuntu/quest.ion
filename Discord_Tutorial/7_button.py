@@ -51,4 +51,4 @@ async def btn(ctx):
         print('Cancelled...')
 
 
-bot.run('OTcxODk2Njk1OTMzNzg4MjMx.GWvn7l.e9sDdAFTzRZVdMlcKLcKycOvqO9Z7l3ZY2LDpU')
+bot.run(TOKEN)

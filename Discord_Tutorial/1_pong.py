@@ -1,7 +1,8 @@
 import os
 from nextcord.ext import commands
+from SECRET import TOKEN
 
-secret_code = os.environ['discord_secret']
+
 # prefix
 bot = commands.Bot(command_prefix="$")
 
@@ -12,5 +13,10 @@ async def ping(ctx: commands.Context):
 
     await ctx.send("pong")
 
+@bot.command()
+async def hello(ctx: commands.Context):
+    # print("pong")
 
-bot.run(secret_code)
+    await ctx.send("bye")
+
+bot.run(TOKEN)

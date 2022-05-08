@@ -2,7 +2,6 @@ from SECRET import TOKEN
 from nextcord.ext import commands
 from nextcord import Intents, Interaction, ButtonStyle, ui
 
-
 class Confirm(ui.View):
     def __init__(self, Qa, Qb, Qc, Qd, Qi):
         super().__init__(timeout=120)
@@ -21,7 +20,7 @@ class Confirm(ui.View):
             child.disabled = True
         await interaction.edit(view=self)
 
-    @ui.button(label="B", style=ButtonStyle.red, row=2)
+    @ui.button(label="B", style=ButtonStyle.red, row=1)
     async def B(self, button: ui.Button, interaction: Interaction):
         await interaction.send("Answer B", ephemeral=True)
         self.value = False
