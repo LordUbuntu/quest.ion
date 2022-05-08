@@ -1,4 +1,4 @@
 # shh, this is a secret ;)
 
 #please don't steal this, this will make us sad :(
-TOKEN = "Xe0pMMPag20ImGeRYUgewzoJ4jr--he-"
+TOKEN = "OTcyNzAyOTkwNjM1MDAzOTI0.G8lVrl.r94sVtitWU6SkrbofeFCwZjOF4XhVnkEmS--3M"
