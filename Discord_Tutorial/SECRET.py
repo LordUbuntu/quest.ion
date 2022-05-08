@@ -1,2 +1,1 @@
-import os
-TOKEN = os.environ['discord_secret']
+TOKEN = Xe0pMMPag20ImGeRYUgewzoJ4jr--he-
